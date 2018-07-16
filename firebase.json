@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/Trying",
+    "public": "dist/myapp",
     "rewrites": [
       {
         "source": "**",
