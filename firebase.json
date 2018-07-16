@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "dist/Trying",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
