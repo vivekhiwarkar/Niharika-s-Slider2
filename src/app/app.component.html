@@ -5,8 +5,13 @@
                 
         <section class="section">
         <mat-form-field class="example-margin">
-         <input matInput type="number" placeholder="Value" [(ngModel)]="value">
+         <input matInput type="number" placeholder="Value" [(ngModel)]="sliderValue">
            </mat-form-field>
+           <div ng-controller="myCtrl">
+           <mat-form-field class="example-margin" *ngIf="arrBirds">
+              <input matInput type="text"  placeholder="Name" [(ngModel)]="sliderName">
+                </mat-form-field>   
+              </div>
             <mat-form-field class="example-margin">
          <input matInput type="number" placeholder="Min value" [(ngModel)]="min">
          </mat-form-field>
@@ -47,27 +52,32 @@
        [step]="step"
        [thumbLabel]="thumbLabel"
        [tickInterval]="tickInterval"
-       [(ngModel)]="value">
+       [(ngModel)]="sliderValue"
+       (change)="onChange(sliderValue)"
+       >
                    
      </mat-slider>
-              </mat-card-content>
-            </mat-card>
+      </mat-card-content>
+    </mat-card>
       
-           <table *ngIf="arrBirds">
-                  <!-- ADD HEADERS -->
-                  <tr>
-                      <th>ID</th>
-                          <th>Name of Bird</th>
-                              <th>Type of Bird</th>
-                  </tr>
+    <table *ngIf="arrBirds">
+     <tr>
+     <th>ID</th>
+      <th>Name of Bird</th>
+                           
+    </tr>
           
-                  <!-- BIND ARRAY TO TABLE -->
-                  <tr *ngFor="let bird of arrBirds">
-                      <td>{{bird.ID}}</td>
-                          <td>{{bird.Name}}</td>
-                              <td>{{bird.Type}}</td>
-                  </tr>
-              </table>
+    <!-- BIND ARRAY TO TABLE -->
+      <tr *ngFor="let bird of arrBirds">
+     <td>{{bird.ID}}</td>
+     <td>{{bird.Name}}</td>
+                        
+     </tr>
+    </table>
+<br>
+    <script src="app/cont.js">
+       
+    </script>
        
   
 
