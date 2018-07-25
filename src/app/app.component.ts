@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import {coerceNumberProperty} from '@angular/cdk/coercion';
 import { HttpClient } from '@angular/common/http';
 import { HttpErrorResponse } from '@angular/common/http';
-import {Observable } from 'rxjs';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -37,6 +37,7 @@ export class AppComponent {
   thumbLabel = false;
   value = 0;
   
+
   get tickInterval(): number | 'auto' {
     return this.showTicks ? (this.autoTicks ? 'auto' : this._tickInterval) : 0;
   }
@@ -45,6 +46,5 @@ export class AppComponent {
   }
   
   onChange(sliderValue): void { this.sliderName = this.arrBirds[sliderValue - 1].Name || ''; }
-
 }
 

@@ -1,17 +1,17 @@
   
   <mat-card>
      <mat-card-content>
-       <h1 class="h1">Range Slider Demo App</h1>
+       <h1 class="h1">Range Slider</h1>
                 
         <section class="section">
         <mat-form-field class="example-margin">
          <input matInput type="number" placeholder="Value" [(ngModel)]="sliderValue">
            </mat-form-field>
-           <div ng-controller="myCtrl">
-           <mat-form-field class="example-margin" *ngIf="arrBirds">
+           
+           <mat-form-field class="example-margin" *ngIf="arrBirds"> 
               <input matInput type="text"  placeholder="Name" [(ngModel)]="sliderName">
-                </mat-form-field>   
-              </div>
+               </mat-form-field>   
+            
             <mat-form-field class="example-margin">
          <input matInput type="number" placeholder="Min value" [(ngModel)]="min">
          </mat-form-field>
@@ -53,13 +53,12 @@
        [thumbLabel]="thumbLabel"
        [tickInterval]="tickInterval"
        [(ngModel)]="sliderValue"
-       (change)="onChange(sliderValue)"
-       >
+       (change)="onChange(sliderValue)">
                    
      </mat-slider>
       </mat-card-content>
     </mat-card>
-      
+  
     <table *ngIf="arrBirds">
      <tr>
      <th>ID</th>
@@ -67,17 +66,15 @@
                            
     </tr>
           
-    <!-- BIND ARRAY TO TABLE -->
+    <!--BIND ARRAY TO TABLE -->
       <tr *ngFor="let bird of arrBirds">
      <td>{{bird.ID}}</td>
      <td>{{bird.Name}}</td>
                         
      </tr>
-    </table>
+    </table> 
 <br>
-    <script src="app/cont.js">
-       
-    </script>
+  
        
   
 

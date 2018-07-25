@@ -1,7 +1,7 @@
 [
     {
         "ID": "1",
-       "Name": "Eurasian Collared-Dove",
+       "Name": "Collared-Dove",
         "Type": "Dove"
     },
     {
@@ -16,27 +16,27 @@
     },
     {
         "ID": "4",
-       "Name": "Four",
+       "Name": "Indian Peacock",
         "Type": "Dove"
     },
     {
         "ID": "5",
-        "Name": "Five",
+        "Name": "Pigeon",
         "Type": "Hawk"
     },
     {
         "ID": "6",
-        "Name": "Six",
+        "Name": "Black Crow",
         "Type": "Hawk"
     },
     {
         "ID": "7",
-       "Name": "Seven",
+       "Name": "Eurasian Crane",
         "Type": "Dove"
     },
     {
         "ID": "8",
-        "Name": "Eight",
+        "Name": "Speaking Sparrow",
         "Type": "Hawk"
     },
     {
@@ -48,16 +48,6 @@
         "ID": "10",
        "Name": "Ten",
         "Type": "Dove"
-    },
-    {
-        "ID": "11",
-        "Name": "Eleven",
-        "Type": "Hawk"
-    },
-    {
-        "ID": "12",
-        "Name": "Twelve",
-        "Type": "Hawk"
     }
     ]
     
