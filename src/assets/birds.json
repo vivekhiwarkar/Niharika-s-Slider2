@@ -1,53 +1,426 @@
 [
     {
-        "ID": "1",
-       "Name": "Collared-Dove",
-        "Type": "Dove"
+      "DataPoint": "About Me",
+      "WhatIsIt": "Information you added to About section of your timeline like relationships,work,education,location,etc. Includes updates or changes made in past or present.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
     },
     {
-        "ID": "2",
-        "Name": "Bald Eagle",
-        "Type": "Hawk"
+      "DataPoint": "Account Status History",
+      "WhatIsIt": "The dates when your account was reactivated, deactivated, disabled or deleted.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "n",
+      "Advertisers": "y"
     },
     {
-        "ID": "3",
-        "Name": "Cooper's Hawk",
-        "Type": "Hawk"
+      "DataPoint": "Active Sessions",
+      "WhatIsIt": "All stored active sessions, including date, time, device, IP address, machine cookie and browser information.",
+      "Friends": "n",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
     },
     {
-        "ID": "4",
-       "Name": "Indian Peacock",
-        "Type": "Dove"
+      "DataPoint": "Ads Clicked",
+      "WhatIsIt": "Dates, times and titles of ads clicked (limited retention period).",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
     },
     {
-        "ID": "5",
-        "Name": "Pigeon",
-        "Type": "Hawk"
+      "DataPoint": "Address",
+      "WhatIsIt": "Your current address or any past addresses you had on your account.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "n"
     },
     {
-        "ID": "6",
-        "Name": "Black Crow",
-        "Type": "Hawk"
+      "DataPoint": "Ad Topics",
+      "WhatIsIt": "A list of topics that you may be targeted against based on your stated likes, interests and other data you put in your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "n"
     },
     {
-        "ID": "7",
-       "Name": "Eurasian Crane",
-        "Type": "Dove"
+      "DataPoint": "Alternate Name",
+      "WhatIsIt": "Any alternate names you have on your account (ex: a maiden name or a nickname).",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "n"
     },
     {
-        "ID": "8",
-        "Name": "Speaking Sparrow",
-        "Type": "Hawk"
+      "DataPoint": "Apps",
+      "WhatIsIt": "All of the apps you have added.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
     },
     {
-        "ID": "9",
-        "Name": "Nine",
-        "Type": "Hawk"
+      "DataPoint": "Birthday Visibility",
+      "WhatIsIt": "How your birthday appears on your timeline.",
+      "Friends": "n",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
     },
     {
-        "ID": "10",
-       "Name": "Ten",
-        "Type": "Dove"
+      "DataPoint": "Chat",
+      "WhatIsIt": "A history of the conversations you’ve had on Facebook Chat (a complete history is available directly from your messages inbox).",
+      "Friends": "n",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "n",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Check-ins",
+      "WhatIsIt": "The places you’ve checked into.",
+      "Friends": "n",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "n",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Currency",
+      "WhatIsIt": "Your preferred currency on Facebook. If you use Facebook Payments, this will be used to display prices and charge your credit cards.",
+      "Friends": "n",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "n",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Current City",
+      "WhatIsIt": "The city you added to the About section of your timeline.",
+      "Friends": "n",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Date of Birth",
+      "WhatIsIt": "The date you added to Birthday in the About section of your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Education",
+      "WhatIsIt": "Any information you added to Education field in the About section of your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Emails",
+      "WhatIsIt": "Email addresses added to your account (even those you may have removed).",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Events",
+      "WhatIsIt": "Events you’ve joined or been invited to.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Facial Recognition Data",
+      "WhatIsIt": "A unique number based on a comparison of the photos you're tagged in. We use this data to help others tag you in photos.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Family",
+      "WhatIsIt": "Friends you’ve indicated are family members.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Favorite Quotes",
+      "WhatIsIt": "Information you’ve added to the Favorite Quotes section of the About section of your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Followers",
+      "WhatIsIt": "A list of people who follow you.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Friend Requests",
+      "WhatIsIt": "Pending sent and received friend requests.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Friends",
+      "WhatIsIt": "A list of your friends.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Gender",
+      "WhatIsIt": "The gender you added to the About section of your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Groups",
+      "WhatIsIt": "A list of groups you belong to on Facebook.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Hidden from News Feed",
+      "WhatIsIt": "Any friends, apps or pages you’ve hidden from your News Feed.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Hometown",
+      "WhatIsIt": "The place you added to hometown in the About section of your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "IP Addresses",
+      "WhatIsIt": "A list of IP addresses where you’ve logged into your Facebook account (won’t include all historical IP addresses as they are deleted according to a retention schedule).",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Locale",
+      "WhatIsIt": "The language you've selected to use Facebook in.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Logins",
+      "WhatIsIt": "IP address, date and time associated with logins to your Facebook account.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Logouts",
+      "WhatIsIt": "IP address, date and time associated with logouts from your Facebook account.",
+      "Friends": "n",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Messages",
+      "WhatIsIt": "Messages you’ve sent and received on Facebook. Note, if you've deleted a message it won't be included in your download as it has been deleted from your account.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Name",
+      "WhatIsIt": "The name on your Facebook account.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Name Changes",
+      "WhatIsIt": "Any changes you’ve made to the original name you used when you signed up for Facebook.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Networks",
+      "WhatIsIt": "Networks (affiliations with schools or workplaces) that you belong to on Facebook.",
+      "Friends": "n",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Pages You Admin",
+      "WhatIsIt": "A list of pages you admin.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Pending Friend Requests",
+      "WhatIsIt": "Pending sent and received friend requests.",
+      "Friends": "n",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Phone Numbers",
+      "WhatIsIt": "Mobile phone numbers you’ve added to your account, including verified mobile numbers you've added for security purposes.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Photos",
+      "WhatIsIt": "Photos you’ve uploaded to your account.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Photos Metadata",
+      "WhatIsIt": "Any metadata that is transmitted with your uploaded photos.",
+      "Friends": "n",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Physical Tokens",
+      "WhatIsIt": "Badges you’ve added to your account.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Pokes",
+      "WhatIsIt": "A list of who’s poked you and who you’ve poked. After the recipient has viewed the content it's permanently deleted from our systems.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Political Views",
+      "WhatIsIt": "Any information you added to Political Views in the About section of timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Posts by Others",
+      "WhatIsIt": "Anything posted to your timeline by someone else, like wall posts or links shared on your timeline by friends.",
+      "Friends": "n",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Recent Activities",
+      "WhatIsIt": "Actions you’ve taken and interactions you’ve recently had.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Registration Date",
+      "WhatIsIt": "The date you joined Facebook.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Religious Views",
+      "WhatIsIt": "The current information you added to Religious Views in the About section of your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Removed Friends",
+      "WhatIsIt": "People you’ve removed as friends.",
+      "Friends": "n",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "n",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Screen Names",
+      "WhatIsIt": "The screen names you’ve added to your account, and the service they’re associated with. You can also see if they’re hidden or visible on your account.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Spoken Languages",
+      "WhatIsIt": "The languages you added to Spoken Languages in the Aboutsection of your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "n",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Status Updates",
+      "WhatIsIt": "Any status updates you’ve posted.",
+      "Friends": "y",
+      "FriendsofFriends": "n",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
+    },
+    {
+      "DataPoint": "Work",
+      "WhatIsIt": "Any current information you’ve added to Work in the About section of your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "n"
+    },
+    {
+      "DataPoint": "Videos",
+      "WhatIsIt": "Videos you’ve posted to your timeline.",
+      "Friends": "y",
+      "FriendsofFriends": "y",
+      "AppDevelopers": "y",
+      "Advertisers": "y"
     }
-    ]
-    
+   ]

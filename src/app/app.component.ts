@@ -12,7 +12,12 @@ import {Observable} from 'rxjs';
 export class AppComponent {
   title = 'app';
   arrBirds:any;
-  private sliderName = null;
+  private sliderDp = null;
+  private sliderWst = null;
+  private sliderFrnds = null;
+  private sliderFof = null;
+  private sliderAdev = null;
+  private sliderAd = null;
   private _tickInterval = 1;
 
   constructor (private httpService: HttpClient) { }
@@ -30,7 +35,7 @@ export class AppComponent {
   }
   
   autoTicks = false;
-  max = 10;
+  max = 53;
   min = 0;
   showTicks = false;
   step = 1;
@@ -45,6 +50,12 @@ export class AppComponent {
     this._tickInterval = coerceNumberProperty(value);
   }
   
-  onChange(sliderValue): void { this.sliderName = this.arrBirds[sliderValue - 1].Name || ''; }
+  onChange(sliderValue): void { 
+    this.sliderDp = this.arrBirds[sliderValue - 1].DataPoint || '',
+    this.sliderWst = this.arrBirds[sliderValue - 1].WhatIsIt || '',
+    this.sliderFrnds = this.arrBirds[sliderValue - 1].Friends || '',
+    this.sliderFof = this.arrBirds[sliderValue - 1].FriendsofFriends || '',
+    this.sliderAdev = this.arrBirds[sliderValue - 1].AppDevelopers || '',
+    this.sliderAd = this.arrBirds[sliderValue - 1].Advertisers || ''; 
 }
-
+}

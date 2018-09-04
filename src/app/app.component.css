@@ -12,9 +12,16 @@
   .example-margin {
     margin: 10px;
   }
+
+  .example{
+    margin: 10px;
+    width: 100%;
+    min-width: 100px;
+    max-width: 780px;
+  }
   
   .mat-slider {
-    width: 800px;
+    width: 900px;
   }
 
   table, th, td 
